@@ -23,6 +23,6 @@ document.getElementById("SUBMIT").addEventListener("click", function() {
         alert(errorMsg);
     } else {
         // Jika semua validasi terpenuhi, pindah ke halaman homepage.html
-        window.location.href = "login.html";
+        window.location.href = "homepage.html";
     }
 });
